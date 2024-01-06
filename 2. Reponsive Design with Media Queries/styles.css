@@ -62,7 +62,7 @@ For each break point, the background of .common-breakpoints must change
   }
 }
 /*Computer*/
-@media (max-width: 1920px) and (min-width: 768px) {
+@media only screen and (min-width: 1920px) {
   .common-breakpoints {
     background-color: orange;
   }
