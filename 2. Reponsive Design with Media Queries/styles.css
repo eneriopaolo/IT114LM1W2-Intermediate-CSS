@@ -49,19 +49,19 @@ For each break point, the background of .common-breakpoints must change
   height: 300px;
   background-color: blue;
 }
-/*Phone*/
+/*Phone - 480px*/
 @media only screen and (min-width: 480px) {
   .common-breakpoints {
     background-color: yellow;
   }
 }
-/*Tablet*/
+/*Tablet - 768px*/
 @media only screen and (min-width: 768px) {
   .common-breakpoints {
     background-color: green;
   }
 }
-/*Computer*/
+/*Computer - 1920px*/
 @media only screen and (min-width: 1920px) {
   .common-breakpoints {
     background-color: orange;
